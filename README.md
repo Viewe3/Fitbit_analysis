@@ -11,12 +11,12 @@ This project provides a data analysis and visualization tool for Fitbit health d
 
 ## Structure
 fitbit_analysis/
-├── data/ # CSV files (raw Fitbit data)
-├── scripts/ # Python scripts
-│ ├── combine_data.py # Data merging and cleaning
-│ ├── filter_data.py # Filtering and statistics
-│ ├── visualize_data.py # Visualization functions
-├── members.txt # Names of group members
-├── requirements.txt # Python dependencies
-├── README.md # Project overview
-└── main.py # Entry point to run the analysis
+- ── data/ # CSV files (raw Fitbit data)
+- ── scripts/ # Python scripts
+- │ ── combine_data.py # Data merging and cleaning
+- │ ── filter_data.py # Filtering and statistics
+- │ ── visualize_data.py # Visualization functions
+- ── members.txt # Names of group members
+- ── requirements.txt # Python dependencies
+- ── README.md # Project overview
+- ── main.py # Entry point to run the analysis
