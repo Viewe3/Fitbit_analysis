@@ -10,7 +10,7 @@ This project provides a data analysis and visualization tool for Fitbit health d
 - Supports analysis at minute, hourly, and daily resolutions
 
 ## Structure
-fitbit_analysis/
+Fitness-Tracker/
 - ── data/ # CSV files (raw Fitbit data)
 - ── scripts/ # Python scripts
 - │ ── combine_data.py # Data merging and cleaning
