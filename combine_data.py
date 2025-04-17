@@ -72,8 +72,6 @@ Here we merge all data that is stored hourly.
 
 '''
 
-
-
 merged_data.hourlyCalories_merged = merged_data.hourlyCalories_merged.drop_duplicates(subset=["Id", "ActivityHour"])
 merged_data.hourlyIntensities_merged = merged_data.hourlyIntensities_merged.drop_duplicates(subset=["Id", "ActivityHour"])
 merged_data.hourlySteps_merged = merged_data.hourlySteps_merged.drop_duplicates(subset=["Id", "ActivityHour"])
@@ -84,3 +82,14 @@ merged_data.hourly_df = pd.merge(merged_data.hourly_df, merged_data.hourlySteps_
 
 merged_data.hourly_df["ActivityHour"] = pd.to_datetime(merged_data.hourly_df["ActivityHour"], format="%m/%d/%Y %I:%M:%S %p")
 print(merged_data.hourly_df)
+
+
+'''
+
+Here we merge all data that is stored daily.
+
+'''
+
+
+merged_data.dailyActivity_merged["ActivityDate"] = pd.to_datetime(merged_data.dailyActivity_merged["ActivityDate"])
+print(merged_data.dailyActivity_merged)
