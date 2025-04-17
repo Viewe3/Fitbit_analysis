@@ -14,6 +14,8 @@ class CSVData:
                 setattr(self, var_name, df)
 
 # Usage
-folder_path = "data/Folder_1"
+folder_path = "data/Folder_1/dataset"
 data = CSVData(folder_path)
+
+print(data.dailyActivity_merged)
 
