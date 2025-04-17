@@ -1,4 +1,4 @@
-# Fitness-Tracker
+# Fitbit analysis
 
 ## Overview
 This project provides a data analysis and visualization tool for Fitbit health data collected from 30 users. The goal is to combine and process multiple datasets to generate insights into users’ physical activity, sleep patterns, and calorie expenditure over different temporal resolutions (minute, hour, and day).
@@ -10,7 +10,7 @@ This project provides a data analysis and visualization tool for Fitbit health d
 - Supports analysis at minute, hourly, and daily resolutions
 
 ## Structure
-Fitness-Tracker/
+Fitbit analysis/
 - ── data/ # CSV files (raw Fitbit data)
 - ── scripts/ # Python scripts
 - │ ── combine_data.py # Data merging and cleaning
